@@ -12,17 +12,17 @@ So I got to work and tried different ways to show hip-shoulder separation with t
 
 After calculating the Euclidean norm of the body parts I wanted to focus on, I decided to plot some swings to see the overlap of different body parts and how fast they’re moving over time. I also included the contact time in the graph so I could imagine the swing better from the graph. And as you can see, there are separations in how each body part moves in different parts of the swing. Even though the graph shows some separation, it is still tough to understand since there isn’t a concrete pattern. Then, I thought that if we look at the peaks of the different body parts on the graph, we can generalize that the peaks capture the moment when each body part is moving the fastest and firing in the swing. After realizing this, I decided to add markers to the peaks of each body part. This is what it looks like:
 
-![][image1]
+<img width="1027" alt="Peaks" src="https://github.com/user-attachments/assets/a69613c8-e023-4410-9baf-ed44fc90005d">
 
 So now, we can all see that the peaks are separated, and different body parts are firing at different times. Keep in mind though that the swings are captured within less than 2 seconds, so technically the separation happens almost instantaneously (the difference is just in milliseconds). Nonetheless, there is still a separation between each body part. You can also see the order of which body parts would fire first to the last. I think we can use the order to picture the swing a little better and see which body part usually fires first till the last to get a better understanding of the components of a swing. To do that, I decided to get the order of the peaks of each body part for 50 random swings, then get the mean order for each body part to find which body part usually fires first and last. And this is what I got:
 
-![][image2]  
+<img width="309" alt="Results Mean Order" src="https://github.com/user-attachments/assets/94b9c682-cc61-4f09-bb6e-5c9ed007f591"> 
 
 Now that I got the mean order, there are different ways that you can use this information. When you look at the results, it says that the pelvis fires first, then the torso, rear hip, lead hip, rear shoulder, then lead shoulder. A coach may think that since the pelvis fires first usually in those 50 swings, we would need to train hitters to focus on firing that body part first. This may work for some hitters, but not all. In my experience, every hitter has different feels and cues that may not even be directly correlated to how the hitter swings (a real-life example from my own experience is if I try to feel my hip hinge more, my hip would not fire and my torso would move first since I don’t load it properly when I think about that).
 
 However, the data does show that hip-shoulder separation exists within the swing. Different body parts are firing at different milliseconds. And we can say that training hip-shoulder separation when we want to improve on hitting would be beneficial. Since the separation happens almost instantaneously, it would be tough for humans to train it directly. Trying to ‘feel’ the separation and force it to happen would be unnatural and slow. Instead, from my experience we would use drills to train our bodies to do that movement without directly. What worked with me to get this feeling of hip-shoulder separation would be a drill I got from Driveline called the hook ‘em drill. This drill helped me feel like I didn’t open up early with my shoulder and can stay closed long enough until my hips and pelvis fire. This is shown in this video:
 
-[Hook ‘Em | Hitting Drills | Driveline Baseball](https://www.youtube.com/watch?v=IyCE0hey7-I)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IyCE0hey7-I/0.jpg)](https://www.youtube.com/watch?v=IyCE0hey7-I)
 
 The baseball swing is a lot more complex than just hip-shoulder separation. Other factors do affect a swing  (where the ball is pitched, the hitter’s timing, etc). But I think it’s still beneficial for us hitters to understand how hip-shoulder separation works and how to train it, let alone break down different swings to show that it exists. 
 
